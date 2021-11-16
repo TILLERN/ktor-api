@@ -15,11 +15,8 @@ fun Application.configureRouting() {
     routing {
         randomCar()
 
-//        get("/") {
-//                call.respondText("Hello World!")
-//            }
         // Static plugin. Try to access `/static/index.html`
-        static("/static") {
+        static {
             resources("static")
         }
     }

@@ -6,7 +6,7 @@ import io.ktor.http.*
 import io.ktor.response.*
 import io.ktor.routing.*
 
-private const val BASE_URL = "localhost:8080"
+private const val BASE_URL = "localhost://8080"
 
 private val cars = listOf(
     Car("Audi", "my best flexing ride", "$BASE_URL/cars/audi"),
